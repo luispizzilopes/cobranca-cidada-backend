@@ -1,0 +1,40 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: cobranca_cidada
+      POSTGRES_USER: cobranca
+      POSTGRES_PASSWORD: cobranca
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cobranca -d cobranca_cidada"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6380:6379"
+
+  api:
+    profiles: ["full"]
+    build:
+      context: .
+      dockerfile: Cobranca.Cidada.Presentation/Dockerfile
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__DefaultConnection: Host=postgres;Port=5432;Database=cobranca_cidada;Username=cobranca;Password=cobranca
+      ConnectionStrings__Redis: redis:6379
+    ports:
+      - "5399:8080"
+
+volumes:
+  postgres_data:
