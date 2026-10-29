@@ -1,7 +1,7 @@
 using System.Text.Json;
 using Cobranca.Cidada.Application.Modules.Commitment.Responses;
-using Cobranca.Cidada.Application.Modules.Seo.Services;
 using Cobranca.Cidada.Domain.Interfaces.Repositories.Commitment;
+using Cobranca.Cidada.Application.Modules.Seo.Services;
 
 namespace Cobranca.Cidada.Tests.Application;
 

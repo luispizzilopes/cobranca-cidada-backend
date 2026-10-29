@@ -3,7 +3,7 @@ using Cobranca.Cidada.Domain.Interfaces.Repositories.Voting;
 using Cobranca.Cidada.Domain.Modules.Voting.Enums;
 using Microsoft.Extensions.Configuration;
 
-namespace Cobranca.Cidada.Application.Common;
+namespace Cobranca.Cidada.Application.Modules.Voting.Policies;
 
 /// <summary>Regras de exibição de votos: as contagens são sempre públicas (os campos "Hidden" ficam falsos).</summary>
 public class VotePolicy

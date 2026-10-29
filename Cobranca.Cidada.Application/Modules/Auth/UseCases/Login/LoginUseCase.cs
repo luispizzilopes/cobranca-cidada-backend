@@ -3,9 +3,9 @@ using Cobranca.Cidada.Application.Interfaces.UseCases;
 using Cobranca.Cidada.Application.Modules.Auth.Models;
 using Cobranca.Cidada.Application.Modules.Auth.Requests;
 using Cobranca.Cidada.Application.Modules.Auth.Responses;
-using Cobranca.Cidada.Application.Modules.Auth.Services;
 using Cobranca.Cidada.Domain.Interfaces.Services;
 using Cobranca.Cidada.Domain.Modules.User.Entities;
+using Cobranca.Cidada.Application.Modules.Auth.Services;
 using Microsoft.AspNetCore.Identity;
 
 namespace Cobranca.Cidada.Application.Modules.Auth.UseCases.Login;

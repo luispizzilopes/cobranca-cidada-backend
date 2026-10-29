@@ -3,7 +3,7 @@ using Cobranca.Cidada.Domain.Modules.Commitment.Constants;
 using Cobranca.Cidada.Domain.Modules.Commitment.Enums;
 using CommitmentAggregate = Cobranca.Cidada.Domain.Modules.Commitment.Aggregates.Commitment;
 
-namespace Cobranca.Cidada.Application.Common;
+namespace Cobranca.Cidada.Application.Modules.Commitment.Mappers;
 
 public static class CommitmentMapper
 {

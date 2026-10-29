@@ -2,7 +2,7 @@ using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Cobranca.Cidada.Application.Common;
+namespace Cobranca.Cidada.Application.Modules.Commitment.Normalizers;
 
 public static partial class TextNormalizer
 {

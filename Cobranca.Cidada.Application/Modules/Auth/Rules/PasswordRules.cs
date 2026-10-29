@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace Cobranca.Cidada.Application.Common;
+namespace Cobranca.Cidada.Application.Modules.Auth.Rules;
 
 public static class PasswordRules
 {

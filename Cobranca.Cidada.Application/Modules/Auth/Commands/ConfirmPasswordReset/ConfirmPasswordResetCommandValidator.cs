@@ -1,4 +1,4 @@
-using Cobranca.Cidada.Application.Common;
+using Cobranca.Cidada.Application.Modules.Auth.Rules;
 using FluentValidation;
 
 namespace Cobranca.Cidada.Application.Modules.Auth.Commands.ConfirmPasswordReset;

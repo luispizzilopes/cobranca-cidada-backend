@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Configuration;
 
-namespace Cobranca.Cidada.Application.Common;
+namespace Cobranca.Cidada.Application.Modules.Voting.Settings;
 
 /// <summary>Limiares da detecção de rajadas de votos (seção <c>Voting:Burst</c>).</summary>
 public class VoteBurstSettings

@@ -1,7 +1,7 @@
 using System.Globalization;
 using System.Text;
 
-namespace Cobranca.Cidada.Application.Common;
+namespace Cobranca.Cidada.Application.Modules.Comment.Filters;
 
 /// <summary>
 /// Troca palavras ofensivas por asteriscos mantendo a primeira letra ("merda" → "m****").

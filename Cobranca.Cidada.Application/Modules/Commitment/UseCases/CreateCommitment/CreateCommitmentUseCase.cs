@@ -1,14 +1,15 @@
 using System.Text.RegularExpressions;
 using ErrorOr;
-using Cobranca.Cidada.Application.Common;
 using Cobranca.Cidada.Application.Interfaces.UseCases;
 using Cobranca.Cidada.Application.Modules.Commitment.Requests;
 using Cobranca.Cidada.Application.Modules.Commitment.Responses;
-using Cobranca.Cidada.Application.Modules.Commitment.Services;
 using Cobranca.Cidada.Domain.Exceptions;
 using Cobranca.Cidada.Domain.Interfaces.UnitOfWork;
 using Cobranca.Cidada.Domain.Modules.Audit;
 using Cobranca.Cidada.Domain.Modules.Audit.Entities;
+using Cobranca.Cidada.Application.Modules.Commitment.Mappers;
+using Cobranca.Cidada.Application.Modules.Commitment.Normalizers;
+using Cobranca.Cidada.Application.Modules.Commitment.Services;
 using FluentValidation;
 using CommitmentAggregate = Cobranca.Cidada.Domain.Modules.Commitment.Aggregates.Commitment;
 

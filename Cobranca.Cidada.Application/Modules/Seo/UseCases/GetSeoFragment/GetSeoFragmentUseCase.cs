@@ -1,12 +1,13 @@
 using System.Text.RegularExpressions;
 using ErrorOr;
-using Cobranca.Cidada.Application.Common;
 using Cobranca.Cidada.Application.Interfaces.UseCases;
 using Cobranca.Cidada.Application.Modules.Commitment.Responses;
 using Cobranca.Cidada.Application.Modules.Seo.Queries.GetSeoFragment;
-using Cobranca.Cidada.Application.Modules.Seo.Services;
 using Cobranca.Cidada.Domain.Interfaces.Caching;
 using Cobranca.Cidada.Domain.Interfaces.UnitOfWork;
+using Cobranca.Cidada.Application.Modules.Commitment.Mappers;
+using Cobranca.Cidada.Application.Modules.Seo.Services;
+using Cobranca.Cidada.Application.Modules.Seo.Settings;
 
 namespace Cobranca.Cidada.Application.Modules.Seo.UseCases.GetSeoFragment;
 

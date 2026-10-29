@@ -1,4 +1,4 @@
-using Cobranca.Cidada.Application.Modules.Commitment.Services;
+using Cobranca.Cidada.Application.Modules.Commitment.Mappers;
 
 namespace Cobranca.Cidada.Tests.Application.Commitment;
 

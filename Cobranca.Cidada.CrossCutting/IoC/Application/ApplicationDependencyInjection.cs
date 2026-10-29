@@ -1,7 +1,11 @@
 using Cobranca.Cidada.Application.Behaviors;
-using Cobranca.Cidada.Application.Common;
 using Cobranca.Cidada.Application.Modules.Auth.Services;
-using Cobranca.Cidada.Application.Modules.Seo.Services;
+using Cobranca.Cidada.Application.Modules.Comment.Filters;
+using Cobranca.Cidada.Application.Modules.Commitment.Services;
+using Cobranca.Cidada.Application.Modules.Seo.Settings;
+using Cobranca.Cidada.Application.Modules.Voting.Guards;
+using Cobranca.Cidada.Application.Modules.Voting.Policies;
+using Cobranca.Cidada.Application.Modules.Voting.Settings;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Configuration;

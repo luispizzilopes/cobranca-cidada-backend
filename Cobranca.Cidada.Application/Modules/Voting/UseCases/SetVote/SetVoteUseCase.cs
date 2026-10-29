@@ -1,11 +1,12 @@
 using ErrorOr;
-using Cobranca.Cidada.Application.Common;
 using Cobranca.Cidada.Application.Interfaces.UseCases;
 using Cobranca.Cidada.Application.Modules.Voting.Requests;
 using Cobranca.Cidada.Application.Modules.Voting.Responses;
 using Cobranca.Cidada.Domain.Interfaces.UnitOfWork;
 using Cobranca.Cidada.Domain.Modules.Commitment.ValueObjects;
 using Cobranca.Cidada.Domain.Modules.Voting.Aggregates;
+using Cobranca.Cidada.Application.Modules.Voting.Guards;
+using Cobranca.Cidada.Application.Modules.Voting.Policies;
 
 namespace Cobranca.Cidada.Application.Modules.Voting.UseCases.SetVote;
 

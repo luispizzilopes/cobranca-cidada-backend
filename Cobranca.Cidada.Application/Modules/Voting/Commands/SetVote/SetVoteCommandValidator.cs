@@ -1,4 +1,4 @@
-using Cobranca.Cidada.Application.Common;
+using Cobranca.Cidada.Application.Modules.Voting.Policies;
 using FluentValidation;
 
 namespace Cobranca.Cidada.Application.Modules.Voting.Commands.SetVote;

@@ -1,4 +1,4 @@
-namespace Cobranca.Cidada.Application.Common;
+namespace Cobranca.Cidada.Application.Modules.Auth.Policies;
 
 public static class PrivacyPolicy
 {

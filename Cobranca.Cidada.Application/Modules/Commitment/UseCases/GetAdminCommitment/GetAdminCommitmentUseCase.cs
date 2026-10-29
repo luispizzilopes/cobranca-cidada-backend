@@ -1,7 +1,7 @@
 using ErrorOr;
-using Cobranca.Cidada.Application.Common;
 using Cobranca.Cidada.Application.Interfaces.UseCases;
 using Cobranca.Cidada.Application.Modules.Commitment.Responses;
+using Cobranca.Cidada.Application.Modules.Commitment.Services;
 
 namespace Cobranca.Cidada.Application.Modules.Commitment.UseCases.GetAdminCommitment;
 

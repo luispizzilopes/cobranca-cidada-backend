@@ -3,9 +3,10 @@ using Cobranca.Cidada.Domain.Interfaces.Services;
 using Cobranca.Cidada.Domain.Interfaces.UnitOfWork;
 using Cobranca.Cidada.Domain.Modules.Audit;
 using Cobranca.Cidada.Domain.Modules.Audit.Entities;
+using Cobranca.Cidada.Application.Modules.Voting.Settings;
 using Microsoft.Extensions.Logging;
 
-namespace Cobranca.Cidada.Application.Common;
+namespace Cobranca.Cidada.Application.Modules.Voting.Guards;
 
 /// <summary>
 /// Detecção simples de rajadas de votos. Três regras com bloqueio temporário (por pessoa, por IP e por

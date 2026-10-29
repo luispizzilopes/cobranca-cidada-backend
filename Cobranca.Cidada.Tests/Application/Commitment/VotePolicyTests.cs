@@ -1,6 +1,6 @@
-using Cobranca.Cidada.Application.Common;
 using Cobranca.Cidada.Domain.Interfaces.Repositories.Voting;
 using Cobranca.Cidada.Domain.Modules.Voting.Enums;
+using Cobranca.Cidada.Application.Modules.Voting.Policies;
 using Microsoft.Extensions.Configuration;
 
 namespace Cobranca.Cidada.Tests.Application.Commitment;

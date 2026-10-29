@@ -1,5 +1,4 @@
 using ErrorOr;
-using Cobranca.Cidada.Application.Common;
 using Cobranca.Cidada.Application.Interfaces.UseCases;
 using Cobranca.Cidada.Application.Modules.Commitment.Requests;
 using Cobranca.Cidada.Application.Modules.Commitment.Responses;
@@ -7,6 +6,8 @@ using Cobranca.Cidada.Domain.Exceptions;
 using Cobranca.Cidada.Domain.Interfaces.UnitOfWork;
 using Cobranca.Cidada.Domain.Modules.Audit;
 using Cobranca.Cidada.Domain.Modules.Audit.Entities;
+using Cobranca.Cidada.Application.Modules.Commitment.Parsers;
+using Cobranca.Cidada.Application.Modules.Commitment.Services;
 using CommitmentAggregate = Cobranca.Cidada.Domain.Modules.Commitment.Aggregates.Commitment;
 
 namespace Cobranca.Cidada.Application.Modules.Commitment.UseCases.RegisterCommitmentStatus;

@@ -1,5 +1,5 @@
-using Cobranca.Cidada.Application.Common;
 using Cobranca.Cidada.Domain.Modules.Commitment.Constants;
+using Cobranca.Cidada.Application.Modules.Commitment.Parsers;
 using FluentValidation;
 
 namespace Cobranca.Cidada.Application.Modules.Commitment.Commands.RegisterCommitmentStatus;

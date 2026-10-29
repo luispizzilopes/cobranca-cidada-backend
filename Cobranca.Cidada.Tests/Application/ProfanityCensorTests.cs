@@ -1,4 +1,4 @@
-using Cobranca.Cidada.Application.Common;
+using Cobranca.Cidada.Application.Modules.Comment.Filters;
 using Xunit;
 
 namespace Cobranca.Cidada.Tests.Application;

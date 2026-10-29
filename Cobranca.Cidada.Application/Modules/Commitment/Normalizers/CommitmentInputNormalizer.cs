@@ -1,6 +1,6 @@
 using Cobranca.Cidada.Application.Modules.Commitment.Requests;
 
-namespace Cobranca.Cidada.Application.Modules.Commitment.Services;
+namespace Cobranca.Cidada.Application.Modules.Commitment.Normalizers;
 
 /// <summary>Limpeza de campos vindos do painel antes da validação: vazio vira nulo, listas sem linhas em branco.</summary>
 public static class CommitmentInputNormalizer

@@ -1,5 +1,4 @@
 using ErrorOr;
-using Cobranca.Cidada.Application.Common;
 using Cobranca.Cidada.Application.Interfaces.UseCases;
 using Cobranca.Cidada.Application.Modules.Commitment.Queries.GetCommitments;
 using Cobranca.Cidada.Application.Modules.Commitment.Responses;
@@ -8,6 +7,9 @@ using Cobranca.Cidada.Domain.Interfaces.Caching;
 using Cobranca.Cidada.Domain.Interfaces.Repositories.Voting;
 using Cobranca.Cidada.Domain.Interfaces.UnitOfWork;
 using Cobranca.Cidada.Domain.Modules.Commitment.Filters;
+using Cobranca.Cidada.Application.Modules.Commitment.Mappers;
+using Cobranca.Cidada.Application.Modules.Commitment.Parsers;
+using Cobranca.Cidada.Application.Modules.Voting.Policies;
 
 namespace Cobranca.Cidada.Application.Modules.Commitment.UseCases.GetCommitments;
 

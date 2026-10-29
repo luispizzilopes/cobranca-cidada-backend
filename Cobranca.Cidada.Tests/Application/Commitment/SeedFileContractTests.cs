@@ -1,8 +1,8 @@
 using System.Text.Json;
 using Cobranca.Cidada.Application.Modules.Commitment.Requests;
-using Cobranca.Cidada.Application.Modules.Commitment.Services;
 using Cobranca.Cidada.Application.Modules.Commitment.Validators;
 using Cobranca.Cidada.Domain.Modules.Commitment.Constants;
+using Cobranca.Cidada.Application.Modules.Commitment.Mappers;
 
 namespace Cobranca.Cidada.Tests.Application.Commitment;
 

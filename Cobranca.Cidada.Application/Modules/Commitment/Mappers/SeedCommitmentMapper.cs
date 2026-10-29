@@ -1,7 +1,7 @@
 using System.Globalization;
 using Cobranca.Cidada.Application.Modules.Commitment.Requests;
 
-namespace Cobranca.Cidada.Application.Modules.Commitment.Services;
+namespace Cobranca.Cidada.Application.Modules.Commitment.Mappers;
 
 public static class SeedCommitmentMapper
 {

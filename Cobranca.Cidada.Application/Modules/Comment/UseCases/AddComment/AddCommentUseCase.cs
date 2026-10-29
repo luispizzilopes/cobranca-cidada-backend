@@ -1,11 +1,11 @@
 using ErrorOr;
-using Cobranca.Cidada.Application.Common;
 using Cobranca.Cidada.Application.Interfaces.UseCases;
 using Cobranca.Cidada.Application.Modules.Comment.Requests;
 using Cobranca.Cidada.Application.Modules.Comment.Responses;
 using Cobranca.Cidada.Domain.Interfaces.UnitOfWork;
 using Cobranca.Cidada.Domain.Modules.Comment.ValueObjects;
 using Cobranca.Cidada.Domain.Modules.Commitment.ValueObjects;
+using Cobranca.Cidada.Application.Modules.Comment.Filters;
 using CommentAggregate = Cobranca.Cidada.Domain.Modules.Comment.Aggregates.Comment;
 
 namespace Cobranca.Cidada.Application.Modules.Comment.UseCases.AddComment;

@@ -2,7 +2,7 @@ using Cobranca.Cidada.Application.Modules.Commitment.Requests;
 using Cobranca.Cidada.Domain.Modules.Commitment.Enums;
 using Cobranca.Cidada.Domain.Modules.Commitment.ValueObjects;
 
-namespace Cobranca.Cidada.Application.Modules.Commitment.Services;
+namespace Cobranca.Cidada.Application.Modules.Commitment.Mappers;
 
 public static class CommitmentContentMapper
 {

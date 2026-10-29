@@ -1,7 +1,7 @@
 using Cobranca.Cidada.Domain.Interfaces.Caching;
 using Cobranca.Cidada.Domain.Interfaces.UnitOfWork;
 
-namespace Cobranca.Cidada.Application.Common;
+namespace Cobranca.Cidada.Application.Modules.Comment.Filters;
 
 /// <summary>Censura textos com a lista de palavras ativas da tabela <c>ProfanityWords</c> guardada em cache por 10 minutos.</summary>
 public class ProfanityFilter

@@ -8,6 +8,7 @@ using Cobranca.Cidada.BuildingBlocks.Pagination;
 using Cobranca.Cidada.Domain.Interfaces.UnitOfWork;
 using Cobranca.Cidada.Infrastructure.Context;
 using Cobranca.Cidada.Tests.Application.Commitment;
+using Cobranca.Cidada.Application.Modules.Commitment.Mappers;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;

@@ -2,7 +2,7 @@ using Cobranca.Cidada.Domain.Modules.Commitment.Constants;
 using Cobranca.Cidada.Domain.Modules.Commitment.Enums;
 using Cobranca.Cidada.Domain.Modules.Commitment.Filters;
 
-namespace Cobranca.Cidada.Application.Common;
+namespace Cobranca.Cidada.Application.Modules.Commitment.Parsers;
 
 /// <summary>Interpretação dos parâmetros de situação e ordenação, compartilhada pela consulta pública e pela do painel.</summary>
 public static class CommitmentQueryParser
