@@ -1,0 +1,28 @@
+namespace Cobranca.Cidada.Application.Modules.Commitment.Responses;
+
+public record CommitmentDetailResponse(
+    string Id,
+    string? ExternalId,
+    string Title,
+    string Description,
+    string? ShortDescription,
+    string? HowItWillBeDone,
+    LookupResponse Area,
+    LookupResponse Origin,
+    StatusResponse Status,
+    DateOnly? StatusDate,
+    DateOnly? Date,
+    string? DateKind,
+    string? DeadlineText,
+    DateOnly? DeadlineDate,
+    string? GoalOrCondition,
+    IReadOnlyList<string> Classification,
+    IReadOnlyList<string> Evidence,
+    string? PlanPage,
+    bool HasPlanDetail,
+    IReadOnlyList<SourceResponse> Sources,
+    IReadOnlyList<StatusEntryResponse> StatusHistory,
+    int Version,
+    DateTime UpdatedAtUtc,
+    VoteSummaryResponse Votes,
+    MyVoteResponse? MyVote);

@@ -7,5 +7,3 @@ public record CatalogResponse(
     IReadOnlyList<LookupResponse> Origins,
     IReadOnlyList<StatusResponse> Statuses,
     VotingInfoResponse Voting);
-
-public record VotingInfoResponse(int MinimumPublicVotes, string Disclaimer);

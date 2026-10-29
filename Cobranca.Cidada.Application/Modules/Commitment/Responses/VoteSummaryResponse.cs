@@ -10,6 +10,3 @@ public record VoteSummaryResponse(
     int? Good,
     int? Bad,
     bool RatingsHidden);
-
-/// <summary>Voto da própria pessoa. Visível só para ela.</summary>
-public record MyVoteResponse(string? Rating, bool Charge);

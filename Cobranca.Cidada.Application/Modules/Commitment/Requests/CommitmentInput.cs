@@ -1,9 +1,5 @@
 namespace Cobranca.Cidada.Application.Modules.Commitment.Requests;
 
-public record SourceInput(string Name, string Url, string? Page, string Kind);
-
-public record InitialStatusInput(string Status, DateOnly ReferenceDate, string? SourceUrl, string? Note, bool IsFormalAct);
-
 /// <summary>
 /// Forma única de entrada de um compromisso. Usada pelo seed e pelo painel de curadoria,
 /// para que a validação seja a mesma nos dois caminhos.
